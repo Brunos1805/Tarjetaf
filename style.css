@@ -5,6 +5,8 @@
 	font-family: Montserrat,Georgia;
 	text-decoration:none;
 	margin: 0px auto;
+	display: grid;
+	place-items: center;
 
 }
 body{
@@ -25,6 +27,7 @@ body{
 	line-height: 30px;
 	border-radius: 5px;
 	box-shadow: 0px 0px 3px 0 white;
+	margin: 0px auto;
 }
 
 #texto{
@@ -36,12 +39,14 @@ body{
 	font-size: 100%;
 	font-weight:600;
 	border-radius: 5px;
+	margin: 0px auto;
 	}
 
 #formdegoogle{
 	display:flex;
 	flex-direction: column;
-	align-items: center;	}	
+	align-items: center;
+	margin: 0px auto;	}	
 
 
 
@@ -50,10 +55,12 @@ body{
 	flex-direction: column;
 	align-items: center;
 	box-shadow: 0px 0px 10px 0 white;
+	margin: 0px auto;
 	}
 
 html{
 display:flex;
 flex-direction: column;
 align-items: center;
+margin: 0px auto;
 }
